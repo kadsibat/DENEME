@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    <!-- border: 1px solid black; -->
+}
+body{
+    border: 1px solid blue;
+    border-radius: 12px;
+    margin: auto;
+    text-align: justify;
+    width: 50%;
+
+
+  }
+#header{
+
+    width: 90%;
+    margin: auto;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+img{
+    width: 35%;
+    height: 160px;
+    padding-top: 40px;
+    float: left;
+}
+#main{
+   padding-top: 35px;
+
+   float: right;
+   width: 60%;
+}
+h2{
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+p{
+    text-align: justify;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
